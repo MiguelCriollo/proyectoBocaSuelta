@@ -1,0 +1,51 @@
+.menu2_Divisiones{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 5% 15% auto;
+    border-style: dotted;
+}
+.menu2_HomeLogo{
+    display: flex;
+    min-height: 30px;
+    max-height: 50px;
+    border-style: dashed;
+    align-items: center;
+}
+.menu2_HomeLogo h4{
+    text-align: left;
+    margin-right: auto;
+}
+
+.menu2_HomeLogo img{
+    margin-left: auto;
+}
+
+
+
+.menu2_creacionTweet{
+    display: grid;
+    grid-template-rows: auto 25%;
+}
+.menu2_creacionTweet_userTweet{
+    display: grid;
+    grid-template-columns: 15% auto;
+}
+.menu2_creacionTweet_userTweet_Contenedorlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.menu2_creacionTweet_userTweet_logo{
+    border-radius: 50%;
+    max-width: 70%;
+    max-width: 70%;
+}
+.menu2_creacionTweet_texto input{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-style: none;
+}

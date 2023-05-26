@@ -1,0 +1,112 @@
+.separacionPrincipal{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    border-style: dotted;
+}
+/*-------------Menu1-------------*/
+.menu1{
+    display: grid;
+    grid-template-rows: 20% auto 10%;
+    border-style: dotted;
+}
+.menu1_logoBocaSuelta{
+    max-width: 100%; 
+    max-height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu1_logoBocaSuelta img{
+    max-width: 100%; 
+    max-height: 100%; 
+    display: block;
+    
+}
+.menu1_navegacion{
+    display: grid;
+    grid-template-rows: repeat(8, 0.7fr) 1fr;
+    
+}
+
+
+.menu1_navegacion_Lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.menu1_botonChismes{
+    background-color: #ff7987;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    width: 200%;
+    height: 50%;
+}
+
+.menu1_navegacion_imagenes{
+    padding-right: 10px;
+}
+
+.menu1_usuario{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+}
+
+
+.menu1_usuario_userName{
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr;
+    padding: 10px;
+}
+.menu1_usuario_userName_total{
+    position: relative;
+}
+.menu1_usuario_userName_total p{
+    height: fit-content;
+    margin: 0%;
+}
+
+.fakeName p{
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+}
+.realName p{
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+
+.menu1_usuario_logos_logoUsuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.menu1_usuario_logoUser_logo{
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+
+}
+.menu1_usuario_logos_logoMas{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+
+
